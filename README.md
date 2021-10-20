@@ -5,8 +5,20 @@
 ## Intruciones
 
 El proyecto cuenta con 2 carpetas
-- Backend (EXPRESS)
-- Frontend (REACT APP)
+- Backend
+- Frontend
+
+## Stack de tecnologias
+- Backend
+    - Express
+    - NodeJS
+- Frontend
+    - React
+
+#### Requisitos para correr la APP:
+- Postgres SQL
+- Node JS
+
 
 Posicionarse en cada carpeta y realizar lo siguiente:
 
