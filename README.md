@@ -19,12 +19,6 @@ El proyecto cuenta con 2 carpetas
 - Backend
 - Frontend
 
-NOTA: AMBOS servidores deben estar encendidos para operar la APP.
-
-#### Descargas
-- [Descargar Postgres SQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-- [Descargar NODE JS](https://nodejs.org/es/download/)
-
 Posicionarse en cada carpeta y realizar lo siguiente:
 
 ``` npm install ```
@@ -37,6 +31,16 @@ Para correr el servidor (Modo desarrollo)
 
 Para correr el fronted
 ``` npm start ```
+
+- Colocar el script de la base de datos en el PSQL shell
+    - Ruta del archivo: backend/src/sql/estructura.sql
+
+NOTA: AMBOS servidores deben estar encendidos para operar la APP.
+
+#### Descargas
+- [Descargar Postgres SQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+- [Descargar NODE JS](https://nodejs.org/es/download/)
+
 
 
 #### Descripción
