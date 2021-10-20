@@ -2,12 +2,6 @@
 
 #### Autor: Daniel Cu Sánchez
 
-## Intruciones
-
-El proyecto cuenta con 2 carpetas
-- Backend
-- Frontend
-
 ## Stack de tecnologias
 - Backend
     - Express
@@ -18,6 +12,14 @@ El proyecto cuenta con 2 carpetas
 #### Requisitos para correr la APP:
 - Postgres SQL
 - Node JS
+
+## Intruciones
+
+El proyecto cuenta con 2 carpetas
+- Backend
+- Frontend
+
+NOTA: AMBOS servidores deben estar encendidos para operar la APP.
 
 #### Descargas
 - [Descargar Postgres SQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
@@ -35,7 +37,6 @@ Para correr el servidor (Modo desarrollo)
 
 Para correr el fronted
 ``` npm start ```
-
 
 
 #### Descripción
