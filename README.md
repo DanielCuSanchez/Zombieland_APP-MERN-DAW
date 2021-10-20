@@ -19,6 +19,9 @@ El proyecto cuenta con 2 carpetas
 - Postgres SQL
 - Node JS
 
+#### Descargas
+- [Descargar Postgres SQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+- [Descargar NODE JS](https://nodejs.org/es/download/)
 
 Posicionarse en cada carpeta y realizar lo siguiente:
 
