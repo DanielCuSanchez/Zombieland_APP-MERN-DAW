@@ -1,10 +1,8 @@
 -- postgres script
 DROP DATABASE IF EXISTS zombieland;
 CREATE DATABASE zombieland;
-\c zombieland;
-
-
 --Te mueve a la base de datos
+\c zombieland;
 
 
 -- CREATE TABLES
@@ -34,3 +32,13 @@ INSERT INTO estados(nombre) VALUES
 ('Violencia'),
 ('Desmayo'),
 ('Transformacion');
+
+INSERT INTO infecciones(nombre, id_estado) VALUES
+('Daniel Cu',1),
+('Daniel Cu',2),
+('Daniel Cu',3),
+('Daniel Cu',4),
+('Juan Perez',2),
+('Juan Perez',1),
+('Juan Perez',3),
+('Juan Perez',4);
