@@ -5,7 +5,7 @@ export const FormInfection = ({ registro, setRegistro }) => {
   const [states, setStates] = useState([])
   const [form, setForm] = useState({
     nombre: '',
-    id_estado: 0
+    id_estado: null
   });
   useEffect(() => {
     const getStates = async () => {
@@ -62,7 +62,7 @@ export const FormInfection = ({ registro, setRegistro }) => {
           {
             states.map(s => {
               return (
-                <option key={s.nombre} value={s.id}>{s.nombre}</option>
+                <option key={s.nombre} value={s.id}>{s.nombre, s.id}</option>
               )
             })
           }
